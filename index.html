@@ -7,10 +7,22 @@
     <h1>Simple Contact Form</h1>
 </head>
 <body>
+     <div class="form-container">
      <form onsubmit=" return validateForm()" method="POST" action="login.php">
 
       <label>Name*</label>
-        <input type = "text" id = "username" id="username" required>
+        <input type = "text" id = "First" id="First" required>
+         <label>First</label>
+         <input type = "text" id = "Last" id="Last" required>
+         <label>Last</label>
+
+         <br><br>
+            <label>Email</label>
+         <input type = "text" id = "Email" id="Email" required>
+
+         <button type="submit"> login </button>
+     </form>
+     </div>
          
 </body>
 </html>
